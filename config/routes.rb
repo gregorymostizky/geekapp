@@ -3,6 +3,8 @@ Geekapp::Application.routes.draw do
   get 'main/index'
   get 'main' => 'main#index'
 
+  resources :files
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

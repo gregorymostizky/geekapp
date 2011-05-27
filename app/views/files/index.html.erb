@@ -1,0 +1,10 @@
+<ul>
+    <% @files.each do |f| %>
+        <li><%= f.file_file_name %></li>
+    <% end %>
+</ul>
+
+<form action="/files" method="POST" enctype="multipart/form-data">
+    <input type="file" name='file'>
+    <input type="submit">
+</form>
