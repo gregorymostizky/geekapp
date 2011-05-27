@@ -3,7 +3,7 @@ class UserFile < ActiveRecord::Base
 
   has_attached_file :file,
                     :storage => :s3,
-                    :bucket => 'geekap',
+                    :bucket => 'geekapp',
                     :s3_credentials => {
                         :access_key_id => ENV['S3_KEY'],
                         :secret_access_key => ENV['S3_SECRET']

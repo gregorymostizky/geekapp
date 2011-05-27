@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811cb93b-3935-4d5b-9d76-89a4d0d38882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/files/index.html.erb" afterPath="$PROJECT_DIR$/app/views/files/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user_file.rb" afterPath="$PROJECT_DIR$/app/models/user_file.rb" />
     </list>
     <ignored path="geekapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -93,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user_file.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="user_file.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/user_file.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+            <state line="5" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="0.1863354">
               <folding />
             </state>
           </provider>
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="87" selection-start="121" selection-end="121" vertical-scroll-proportion="0.07453416">
+            <state line="2" column="87" selection-start="121" selection-end="121" vertical-scroll-proportion="-0.8888889">
               <folding />
             </state>
           </provider>
@@ -186,12 +186,12 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
-        <option value="$PROJECT_DIR$/app/models/user_file.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/db/migrate/20110527144121_create_user_files.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/files/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user_file.rb" />
       </list>
     </option>
   </component>
@@ -813,16 +813,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user_file.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.0">
+        <state line="2" column="87" selection-start="121" selection-end="121" vertical-scroll-proportion="-0.8888889">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/user_file.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="87" selection-start="121" selection-end="121" vertical-scroll-proportion="0.07453416">
+        <state line="5" column="39" selection-start="159" selection-end="159" vertical-scroll-proportion="0.1863354">
           <folding />
         </state>
       </provider>
