@@ -1,6 +1,6 @@
 <ul>
     <% @files.each do |f| %>
-        <li><%= f.file_file_name %></li>
+        <li><%= f.file_file_name %> @ <a href='<%= f.file.url %>'><%= f.file.url %></a></li>
     <% end %>
 </ul>
 
