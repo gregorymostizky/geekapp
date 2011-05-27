@@ -12,7 +12,19 @@
   <component name="GemRequirementsHolder" version="3">
     <requirement>
       <requirement>
+        <dependency name="aws-s3" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
         <dependency name="mysql2" version="0.3.0" bound="LESS" git="false" path="false" doRequire="true" />
+      </requirement>
+      <source from="Gemfile" />
+    </requirement>
+    <requirement>
+      <requirement>
+        <dependency name="paperclip" version="0" bound="GREATER_OR_EQUAL" git="false" path="false" doRequire="true" />
       </requirement>
       <source from="Gemfile" />
     </requirement>
@@ -63,6 +75,9 @@
     <orderEntry type="library" scope="PROVIDED" name="[gem] rack-test (v0.5.7, /Users/gregory/.rvm/gems/ruby-1.9.2-p180/gems/rack-test-0.5.7)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] actionpack (v3.0.7, /Users/gregory/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7)" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="[gem] mysql2 (v0.2.7, /Users/gregory/.rvm/gems/ruby-1.9.2-p180/gems/mysql2-0.2.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] rake (v0.8.7, /Users/gregory/.rvm/gems/ruby-1.9.2-p180@global/gems/rake-0.8.7)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] aws-s3 (v0.6.2, /Users/gregory/.rvm/gems/ruby-1.9.2-p180/gems/aws-s3-0.6.2)" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="[gem] xml-simple (v1.0.15, /Users/gregory/.rvm/gems/ruby-1.9.2-p180/gems/xml-simple-1.0.15)" level="application" />
   </component>
 </module>
 
