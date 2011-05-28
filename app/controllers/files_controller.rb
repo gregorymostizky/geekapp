@@ -1,10 +1,10 @@
 class FilesController < ApplicationController
   def index
-    @files = UserFile.all
+    @files = UserFile.all(:conditions => {:user => current_user })
   end
 
   def create
-    @file = UserFile.create( :file => params[:file], :user => User.first )
+    @file = UserFile.create( :file => params[:file], :user => current_user )
     @files = [@file]
     render "index"
   end
