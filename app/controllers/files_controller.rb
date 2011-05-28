@@ -1,15 +1,13 @@
 class FilesController < ApplicationController
   def index
-    puts 'hahah'
     @files = PaperFile.all(:conditions => {:user_id => current_user })
   end
 
+  def new
+    @paper = Paper.find(params[:paper_id])
+  end
+
   def create
-    puts 'increate'
-    Rails.logger.info {current_user.inspect}
     @file = PaperFile.create( :file => params[:file], :user => current_user )
-    @files = [@file]
-    Rails.logger.info {current_user.inspect}
-    render "index"
   end
 end

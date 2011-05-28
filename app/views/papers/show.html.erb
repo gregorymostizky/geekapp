@@ -11,5 +11,5 @@
         <li><%= sf.file_name %></li>
     <% end %>
 
-    <%= link_to 'Add', :controller => :files %>
+    <%= link_to 'Add', :controller => :files, :action => :new, :paper_id => @paper.id %>
 </ul>
