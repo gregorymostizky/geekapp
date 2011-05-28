@@ -1,7 +1,10 @@
 Geekapp::Application.routes.draw do
   devise_for :users
 
-  root :to => 'main#index'
+  root :to => 'dashboard#index'
+
+  get 'dashboard/index'
+
   get 'main/index'
   get 'main' => 'main#index'
 
