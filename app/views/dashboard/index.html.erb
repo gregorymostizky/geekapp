@@ -2,7 +2,7 @@
     <h2>My papers</h2>
     <ul>
         <% @papers.each do |paper| %>
-        <li><%= paper.title %></li>
+        <li><%= link_to paper.title, paper %></li>
         <% end %>
     </ul>
     <a href='/papers/new'>Create new..</a>
