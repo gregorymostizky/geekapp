@@ -6,6 +6,7 @@ class FilesController < ApplicationController
   def create
     @file = UserFile.create( :file => params[:file], :user => current_user )
     @files = [@file]
+    p current_user
     render "index"
   end
 end
