@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811cb93b-3935-4d5b-9d76-89a4d0d38882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/files_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/files_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/files/index.html.erb" afterPath="$PROJECT_DIR$/app/views/files/index.html.erb" />
     </list>
     <ignored path="geekapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,10 +111,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="files_controller.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="files_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="58" selection-start="229" selection-end="229" vertical-scroll-proportion="0.32764506">
+            <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -138,10 +138,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3970588">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="form_tag_helper.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/helpers/form_tag_helper.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="186" column="10" selection-start="9697" selection-end="9697" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -151,15 +160,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="4" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="-2.2857144">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="46" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,7 +185,6 @@
         <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/main/index.html.erb" />
         <option value="$PROJECT_DIR$/db/migrate/20110527144121_create_user_files.rb" />
-        <option value="$PROJECT_DIR$/app/views/files/index.html.erb" />
         <option value="$PROJECT_DIR$/app/models/user_file.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/production.rb" />
@@ -196,6 +195,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
         <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/files/index.html.erb" />
       </list>
     </option>
   </component>
@@ -796,13 +796,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="86" selection-start="1541" selection-end="1541" vertical-scroll-proportion="-6.259259">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/locales/devise.en.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -859,13 +852,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/files/create.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="67" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
@@ -903,7 +889,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="58" selection-start="229" selection-end="229" vertical-scroll-proportion="0.32764506">
+        <state line="1" column="0" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.0.7/lib/action_view/helpers/form_tag_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="186" column="10" selection-start="9697" selection-end="9697" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/files/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="20" selection-start="292" selection-end="292" vertical-scroll-proportion="0.3970588">
           <folding />
         </state>
       </provider>

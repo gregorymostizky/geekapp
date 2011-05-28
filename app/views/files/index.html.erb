@@ -5,6 +5,7 @@
 </ul>
 
 <form action="/files" method="POST" enctype="multipart/form-data">
+    <%= token_tag %>
     <input type="file" name='file'>
     <input type="submit">
 </form>
