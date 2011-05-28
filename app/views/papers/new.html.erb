@@ -1,0 +1,5 @@
+<%= form_for :paper, @paper  do |f| %>
+    <%= f.text_field :title %>
+    <%= f.text_area :description %>
+    <%= f.submit :create %>
+<% end %>

@@ -9,6 +9,7 @@ Geekapp::Application.routes.draw do
   get 'main' => 'main#index'
 
   resources :files
+  resources :papers
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
