@@ -1,6 +1,6 @@
 class FilesController < ApplicationController
   def index
-    @files = UserFile.all(:conditions => {:user => current_user })
+    @files = UserFile.all(:conditions => {:user_id => current_user })
   end
 
   def create
