@@ -1,4 +1,4 @@
-<%= form_for :paper, @paper  do |f| %>
+<%= form_for :paper, @paper, :url => {:action => :create}  do |f| %>
     <%= f.text_field :title %>
     <%= f.text_area :description %>
     <%= f.submit :create %>
