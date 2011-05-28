@@ -8,6 +8,7 @@ class FilesController < ApplicationController
   end
 
   def create
-    @file = PaperFile.create( :file => params[:file], :user => current_user )
+    @file = PaperFile.create( params[:file] )
+    redirect_to :controller => :papers, :action => :show, :id => params[:paper_id]
   end
 end
