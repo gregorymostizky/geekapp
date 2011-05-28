@@ -4,10 +4,10 @@ class FilesController < ApplicationController
   end
 
   def create
-    p current_user
+    Rails.logger.info {current_user.inspect}
     @file = UserFile.create( :file => params[:file], :user => current_user )
     @files = [@file]
-    p current_user
+    Rails.logger.info {current_user.inspect}
     render "index"
   end
 end
