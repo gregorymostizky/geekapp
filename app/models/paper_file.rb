@@ -1,5 +1,5 @@
-class UserFile < ActiveRecord::Base
-  belongs_to :user
+class PaperFile < ActiveRecord::Base
+  belongs_to :paper
 
   has_attached_file :file,
                     :storage => :s3,

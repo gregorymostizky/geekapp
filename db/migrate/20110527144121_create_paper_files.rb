@@ -1,7 +1,7 @@
-class CreateUserFiles < ActiveRecord::Migration
+class CreatePaperFiles < ActiveRecord::Migration
   def self.up
-    create_table :user_files do |t|
-      t.references :user
+    create_table :paper_files do |t|
+      t.references :paper
 
       t.string :file_file_name
       t.string :file_content_type
@@ -13,6 +13,6 @@ class CreateUserFiles < ActiveRecord::Migration
   end
 
   def self.down
-    drop_table :user_files
+    drop_table :paper_files
   end
 end
