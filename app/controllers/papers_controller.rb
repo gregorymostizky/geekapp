@@ -13,4 +13,8 @@ class PapersController < ApplicationController
     @paper.save
     redirect_to :controller => :dashboard, :action => :index
   end
+
+  def show
+    @paper = Paper.find(params[:id])
+  end
 end
