@@ -5,6 +5,7 @@ class FilesController < ApplicationController
   end
 
   def create
+    puts 'increate'
     Rails.logger.info {current_user.inspect}
     @file = UserFile.create( :file => params[:file], :user => current_user )
     @files = [@file]

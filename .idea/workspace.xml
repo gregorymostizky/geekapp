@@ -15,7 +15,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811cb93b-3935-4d5b-9d76-89a4d0d38882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/files_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/files_controller.rb" />
     </list>
     <ignored path="geekapp.iws" />
@@ -115,7 +114,7 @@
       <file leaf-file-name="files_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="15" selection-start="73" selection-end="73" vertical-scroll-proportion="0.081911266">
+            <state line="8" column="58" selection-start="229" selection-end="229" vertical-scroll-proportion="0.32764506">
               <folding />
             </state>
           </provider>
@@ -904,7 +903,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="73" selection-end="73" vertical-scroll-proportion="0.081911266">
+        <state line="8" column="58" selection-start="229" selection-end="229" vertical-scroll-proportion="0.32764506">
           <folding />
         </state>
       </provider>
