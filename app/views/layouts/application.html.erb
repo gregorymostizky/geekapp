@@ -8,6 +8,10 @@
 </head>
 <body>
 
+<% if current_user %>
+<p>Hey <%= current_user.email %></p>
+<% end %>
+
 <p class="notice"><%= notice %></p>
 
 <p class="alert"><%= alert %></p>
