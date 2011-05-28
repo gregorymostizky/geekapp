@@ -7,7 +7,7 @@
 <body>
 
 <% if current_user %>
-<p>Hey <%= current_user.email %></p>
+<p>Hey <%= current_user.email %> <a href='/users/sign_out'>Logout</a></p>
 <% end %>
 
 <p class="notice"><%= notice %></p>
