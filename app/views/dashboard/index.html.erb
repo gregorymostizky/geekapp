@@ -1,5 +1,10 @@
 <div>
     <h2>My papers</h2>
+    <ul>
+        <% @papers.each do |paper| %>
+        <li><%= paper.title %></li>
+        <% end %>
+    </ul>
 </div>
 
 <div>
