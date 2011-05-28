@@ -3,3 +3,13 @@
 <hr>
 
 <span><%= @paper.description %></span>
+
+<hr>
+
+<ul>
+    <% @paper.sources.each do |sf| %>
+        <li><%= sf.file_name %></li>
+    <% end %>
+
+    <%= link_to 'Add', :controller => :files %>
+</ul>
