@@ -9,5 +9,7 @@ class FilesController < ApplicationController
     @files = [@file]
     Rails.logger.info {current_user.inspect}
     render "index"
+  rescue e
+    Rails.logger.info {e.inspect}
   end
 end
