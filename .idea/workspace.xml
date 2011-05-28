@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811cb93b-3935-4d5b-9d76-89a4d0d38882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/papers/show.html.erb" afterPath="$PROJECT_DIR$/app/views/papers/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/files/new.html.erb" afterPath="$PROJECT_DIR$/app/views/files/new.html.erb" />
     </list>
     <ignored path="geekapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -84,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/papers/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="102" selection-start="257" selection-end="257" vertical-scroll-proportion="0.3956044">
+            <state line="12" column="102" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -129,10 +129,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/files/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="27" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
+            <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.06366048">
               <folding />
             </state>
           </provider>
@@ -196,9 +196,9 @@
         <option value="$PROJECT_DIR$/test/unit/paper_file_test.rb" />
         <option value="$PROJECT_DIR$/app/models/paper_file.rb" />
         <option value="$PROJECT_DIR$/app/models/paper.rb" />
-        <option value="$PROJECT_DIR$/app/views/files/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/papers/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/files/new.html.erb" />
       </list>
     </option>
   </component>
@@ -962,13 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/files/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="27" selection-start="227" selection-end="227" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/paper_file.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -978,7 +971,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/papers/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="102" selection-start="257" selection-end="257" vertical-scroll-proportion="0.3956044">
+        <state line="12" column="102" selection-start="257" selection-end="257" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/files/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.06366048">
           <folding />
         </state>
       </provider>
