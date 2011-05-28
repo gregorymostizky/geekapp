@@ -15,7 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811cb93b-3935-4d5b-9d76-89a4d0d38882" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/files/new.html.erb" afterPath="$PROJECT_DIR$/app/views/files/new.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/files_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/files_controller.rb" />
     </list>
     <ignored path="geekapp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -120,19 +120,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="files_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="files_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="64" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.44562334">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/files/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.06366048">
+            <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -196,9 +196,9 @@
         <option value="$PROJECT_DIR$/test/unit/paper_file_test.rb" />
         <option value="$PROJECT_DIR$/app/models/paper_file.rb" />
         <option value="$PROJECT_DIR$/app/models/paper.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/papers/show.html.erb" />
         <option value="$PROJECT_DIR$/app/views/files/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/files_controller.rb" />
       </list>
     </option>
   </component>
@@ -913,13 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/paper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/user.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -955,13 +948,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="64" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/paper_file.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="347" selection-end="347" vertical-scroll-proportion="0.0">
@@ -978,7 +964,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/files/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.06366048">
+        <state line="2" column="86" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/paper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="105" selection-end="105" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/files_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="311" selection-end="311" vertical-scroll-proportion="0.44562334">
           <folding />
         </state>
       </provider>
