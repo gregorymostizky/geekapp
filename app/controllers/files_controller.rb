@@ -9,6 +9,6 @@ class FilesController < ApplicationController
 
   def create
     @file = PaperFile.create( params[:file] )
-    redirect_to Paper.find(params[:paper_id])
+    redirect_to papers_url(params[:paper_id])
   end
 end
